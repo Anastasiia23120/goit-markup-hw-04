@@ -395,7 +395,7 @@ button {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-text-img:hover {
+.portfolio-list-item:hover .portfolio-text-img {
   transform: translateY(0%);
 }
 
@@ -430,6 +430,16 @@ button {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-and-text {
+  margin-right: 120px;
+}
+
 .footer-logo .logo-part {
   color: #f4f4fd;
 }
@@ -445,5 +455,44 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.footer-text-psm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-sm-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-sm-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-sm-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-sm-link:hover,
+.footer-sm-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-sm-icon {
+  fill: #f4f4fd;
 }
 /* ==================== /FOOTER STYLES ==================== */
